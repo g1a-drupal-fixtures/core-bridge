@@ -1,16 +1,18 @@
 {
-  "name": "drupal/core-bridge",
-  "description": "Bridge.",
-  "keywords": ["drupal"],
-  "homepage": "https://www.drupal.org/project/drupal",
-  "license": "GPL-2.0-or-later",
-  "require": {
-    "php": ">=7.0.8",
-    "zendframework/zend-feed": "^2.4"
-  },
-  "autoload": {
-    "psr-4": {
-      "Drupal\\Component\\Bridge\\": ""
+    "name": "g1a-drupal-fixtures/core-bridge",
+    "description": "Bridge.",
+    "keywords": [
+        "drupal"
+    ],
+    "homepage": "https://www.drupal.org/project/drupal",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.0.8",
+        "zendframework/zend-feed": "^2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\Component\\Bridge\\": ""
+        }
     }
-  }
 }
